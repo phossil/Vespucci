@@ -1,0 +1,140 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "addBkPanelAdd:",
+	    "addBkPanelCancel:",
+	    "addBookmark:",
+	    "cancelPrefs:",
+	    "changeAttributes:",
+	    "changeDocumentBackgroundColor:",
+	    "goBack:",
+	    "goBackHistory:",
+	    "goForward:",
+	    "goForwardHistory:",
+	    "loadBookmark:",
+	    "makeTextLarger:",
+	    "makeTextSmaller:",
+	    "chooseFont:",
+	    "reload:",
+	    "savePrefs:",
+	    "setDownloadDelegate:",
+	    "setEditingDelegate:",
+	    "setFrameLoadDelegate:",
+	    "setPolicyDelegate:",
+	    "setResourceLoadDelegate:",
+	    "setUIDelegate:",
+	    "setUrl:",
+	    "showPreferences:",
+	    "startSpeaking:",
+	    "stopLoading:",
+	    "stopSpeaking:",
+	    "takeStringURLFrom:"
+	);
+	Super = NSObject;
+    };
+    VEAppController = {
+	Actions = (
+	    "showPreferences:",
+	    "savePrefs:",
+	    "cancelPrefs:",
+	    "loadBookmark:",
+	    "addBookmark:",
+	    "addBkPanelAdd:",
+	    "addBkPanelCancel:",
+	    "chooseFont:"
+	);
+	Outlets = (
+	    prefPanel,
+	    homePageField,
+	    bookmarksMenu,
+	    javaScriptCheck,
+	    fontStandardField,
+	    fontSerifField,
+	    fontSansSerifField,
+	    fontMonoField,
+	    chooseStandardFontButton,
+	    chooseSerifFontButton,
+	    chooseSansFontButton,
+	    chooseMonoFontButton,
+	    addBookmarkPanel,
+	    addBkTitleField,
+	    addBkUrlField
+	);
+	Super = NSObject;
+    };
+    VEDocument = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSDocument;
+    };
+    VEDocumentController = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSDocumentController;
+    };
+    VEWinController = {
+	Actions = (
+	    "setUrl:",
+	    "goBackHistory:",
+	    "goForwardHistory:"
+	);
+	Outlets = (
+	    urlField,
+	    webView,
+	    status
+	);
+	Super = NSObject;
+    };
+    WebView = {
+	Actions = (
+	    "alignCenter:",
+	    "alignJustified:",
+	    "alignLeft:",
+	    "alignRight:",
+	    "changeAttributes:",
+	    "changeColor:",
+	    "changeDocumentBackgroundColor:",
+	    "changeFont:",
+	    "checkSpelling:",
+	    "copy:",
+	    "copyFont:",
+	    "cut:",
+	    "delete:",
+	    "goBack:",
+	    "goForward:",
+	    "makeTextLarger:",
+	    "makeTextSmaller:",
+	    "paste:",
+	    "pasteAsPlainText:",
+	    "pasteAsRichText:",
+	    "pasteFont:",
+	    "performFindPanelAction:",
+	    "reload:",
+	    "setDownloadDelegate:",
+	    "setEditingDelegate:",
+	    "setFrameLoadDelegate:",
+	    "setPolicyDelegate:",
+	    "setResourceLoadDelegate:",
+	    "setUIDelegate:",
+	    "showGuessPanel:",
+	    "startSpeaking:",
+	    "stopLoading:",
+	    "stopSpeaking:",
+	    "takeStringURLFrom:"
+	);
+	Outlets = (
+	    _downloadDelegate,
+	    _editingDelegate,
+	    _frameLoadDelegate,
+	    _policyDelegate,
+	    _resourceLoadDelegate,
+	    _uiDelegate
+	);
+	Super = NSView;
+    };
+}

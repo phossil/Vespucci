@@ -1,0 +1,69 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {goBackHistory = id; goForwardHistory = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addBkPanelAdd = id; 
+                addBkPanelCancel = id; 
+                addBookmark = id; 
+                cancelPrefs = id; 
+                chooseFont = id; 
+                loadBookmark = id; 
+                savePrefs = id; 
+                showPreferences = id; 
+            }; 
+            CLASS = VEAppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addBkTitleField = NSTextField; 
+                addBkUrlField = NSTextField; 
+                addBookmarkPanel = NSPanel; 
+                bookmarksMenu = NSMenuItem; 
+                chooseMonoFontButton = NSButton; 
+                chooseSansFontButton = NSButton; 
+                chooseSerifFontButton = NSButton; 
+                chooseStandardFontButton = NSButton; 
+                fontMonoField = NSTextField; 
+                fontSansSerifField = NSTextField; 
+                fontSerifField = NSTextField; 
+                fontStandardField = NSTextField; 
+                homePageField = NSTextField; 
+                javaScriptCheck = NSButton; 
+                prefPanel = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = VEDocumentController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSDocumentController; 
+        }, 
+        {
+            ACTIONS = {goBackHistory = id; goForwardHistory = id; setUrl = id; }; 
+            CLASS = VEWinController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {status = NSTextField; urlField = NSTextField; webView = WebView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                goBack = id; 
+                goForward = id; 
+                makeTextLarger = id; 
+                makeTextSmaller = id; 
+                reload = id; 
+                stopLoading = id; 
+                takeStringURLFrom = id; 
+            }; 
+            CLASS = WebView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}
